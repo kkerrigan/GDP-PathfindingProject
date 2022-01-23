@@ -1,0 +1,147 @@
+{
+  "entities": [
+    {
+      "id": 3,
+      "entityType": 1,
+      "components": [
+        {
+          "componentType": "Transform",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 5000.0,
+            "y": 5000.0,
+            "z": 5000.0
+          }
+        },
+        {
+          "componentType": "Render",
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv_INVERTED_NORMALS.ply",
+          "isWireframe": false,
+          "isVisible": false,
+          "color": {
+            "r": 1.0,
+            "g": 0.4117647111415863,
+            "b": 0.7058823704719544,
+            "a": 1.0
+          },
+          "textures": [],
+          "specular": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "shinyness": 1.0
+          },
+          "useVertexColor": false,
+          "friendlyName": "SkyBoxObject",
+          "dontLight": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "entityType": 2,
+      "components": [
+        {
+          "componentType": "Rigid Body",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "mass": 0.0,
+          "shape": {
+            "type": "plane",
+            "constant": 0.0,
+            "normal": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          }
+        },
+        {
+          "componentType": "Transform",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "componentType": "Euler",
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "componentType": "Render",
+          "meshName": "flat.ply",
+          "friendlyName": "BottomPlane",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "gravel.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 1000.0
+          },
+          "useVertexColor": false,
+          "dontLight": false
+        }
+      ]
+    }
+  ]
+}

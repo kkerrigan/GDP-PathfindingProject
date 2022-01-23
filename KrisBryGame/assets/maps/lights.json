@@ -1,0 +1,47 @@
+{
+    "lights": [
+        {
+            "position": {
+                "x": 0.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "diffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "specular": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            },
+            "attenuation": {
+                "constant": 0.0,
+                "linear": 0.0014025764539837838,
+                "quadratic": 1.0000000116860974e-7,
+                "cutoffDist": 0.0
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "param1": {
+                "lightType": 0.0,
+                "innerAngle": 0.0,
+                "outerAngle": 0.0,
+                "w": 0.0
+            },
+            "param2": {
+                "isOn": 1.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        }
+    ]
+}

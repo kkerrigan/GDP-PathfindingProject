@@ -1,0 +1,15 @@
+Key	Action
+UP / DOWN arrow	Change selected rigid body (will turn red)
+W	Move rigid body forward
+S	Move rigid body backwards
+A	Move rigid body left
+D	Move rigid body right
+I	Move camera forward
+K	Move camera backward
+J	Move camera left
+L	Move camera right
+Q	Move camera up
+E	Move camera down 
+CTRL + Q	Roll camera to the left
+CTRL + E	Roll camera to the right
+Clicking the left mouse will increase camera move speed
